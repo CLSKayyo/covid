@@ -1,0 +1,74 @@
+body{
+    width: 90%;
+    margin: auto;
+    background-color: #181C30;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo{
+    display: table;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.obs{
+    display: table;
+    margin: auto;
+    font-size: 12px;
+}
+
+.grafico{
+    display: table;
+    margin: auto;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px){
+    .graficocontainer{
+        display: none;
+    }
+}
+
+a{
+    color: white;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.row{
+    margin: 100px auto;
+}
+
+.dados{
+    display: table;
+    margin: auto;
+    text-align: center;
+    width: 180px;
+}
+
+.dados h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.dados h3{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.disclaimer{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.data{
+    display: table;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
